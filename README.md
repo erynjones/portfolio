@@ -2,7 +2,7 @@
 
 #### [erynjones.ca](https://erynjones.ca)
 
-![](photo.jpg)
+![](images/photo.jpg)
 
 ## About
 
