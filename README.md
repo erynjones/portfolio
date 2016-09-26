@@ -23,3 +23,5 @@ When I was a little kid I could never sit still. I was always active and getting
 ### License & Copyright
 
 © 2016 Eryn Jones
+
+Licensed under the [MIT Licensed] (LICENSE).
