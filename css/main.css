@@ -1,0 +1,13 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.img {
+  width: 100%;
+}
+
+.banner {
+  padding: calc(4em + 40vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
