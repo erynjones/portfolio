@@ -23,6 +23,16 @@ html {
   width: 100%;
 }
 
+.flow {
+  overflow: hidden;
+}
+
+.title {
+  position: absolute;
+  padding-right: 1em;
+  bottom: -650px;
+}
+
 .banner {
   padding: calc(3em + 30vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
@@ -31,8 +41,9 @@ html {
 
 .banner-1 {
   padding: calc(3em + 30vw) 0 0;
-  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  background: url("../images/banner-1.svg") center center / cover no-repeat;
   padding-bottom: 1em;
+  width: 100%;
 }
 
 .banner-2 {
