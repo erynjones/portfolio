@@ -23,8 +23,74 @@ html {
   width: 100%;
 }
 
+.me {
+  width: 60%;
+}
+
 .banner {
+  padding: calc(3em + 30vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+.banner-1 {
+  padding: calc(3em + 30vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+.banner-2 {
+  padding: calc(3em + 30vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+.banner-3 {
+  padding: calc(3em + 30vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+.banner-4 {
   padding: calc(4em + 40vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
   padding-bottom: 1em;
+}
+
+.banner-5 {
+  padding: calc(4em + 40vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+.banner-6 {
+  padding: calc(4em + 40vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+.banner-7 {
+  padding: calc(4em + 40vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+.banner-8 {
+  padding: calc(4em + 40vw) 0 0;
+  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 61em) {
+
+  .me {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+
+  .me {
+    width: 80%;
+  }
 }
