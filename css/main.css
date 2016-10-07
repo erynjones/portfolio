@@ -7,6 +7,10 @@ html {
   padding: 0;
 }
 
+.header {
+  height: 100px;
+}
+
 .grey {
   color: #b3b7b7;
 }
