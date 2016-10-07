@@ -31,11 +31,19 @@ html {
   overflow: hidden;
 }
 
+.title-zombie {
+  text-align: center;
+  position: absolute;
+  bottom: 48px;
+  left: 80px
+}
+
 .title {
   text-align: center;
   position: absolute;
-  bottom: 50px;
-  left: 100px;
+  bottom: 48px;
+  padding-right: 10em;
+  padding-left: 10em;
 }
 
 .title:hover {
@@ -44,6 +52,14 @@ html {
 
 .space {
   margin-bottom: -0.5em;
+}
+
+.black {
+  background-color: #000;
+}
+
+.height {
+  height: 250px;
 }
 
 .banner {
@@ -72,7 +88,7 @@ html {
 
 .banner-4 {
   padding: calc(4em + 40vw) 0 0;
-  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  background: url("../imgaes/banner-4.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
@@ -105,6 +121,10 @@ html {
   .me {
     width: 60%;
   }
+
+  .height {
+    height: 400px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -112,11 +132,19 @@ html {
   .me {
     width: 100%;
   }
+
+  .height {
+    height: 550px;
+  }
 }
 
 @media only screen and (min-width: 80em) {
 
   .me {
     width: 80%;
+  }
+
+  .height {
+    height: 1000px;
   }
 }
