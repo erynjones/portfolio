@@ -39,40 +39,29 @@ p {
   width: 100%;
 }
 
+.opc {
+  opacity: .5;
+}
+
 .rel {
   position: relative;
   overflow: hidden;
 }
 
-.opc {
-  opacity: .5;
-}
-
-.title-zombie {
-  text-align: center;
-  position: absolute;
-  bottom: 35px;
-  left: 100px;
-  z-index: 100;
-}
-
-.title-pooh {
-  text-align: center;
-  position: absolute;
-  bottom: 35px;
-  left: 80px;
-  z-index: 100;
-}
 .title {
-  text-align: center;
   position: absolute;
-  bottom: 35px;
-  left: 80px;
+  opacity: 1;
+  width: 100%;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 100;
+  top: 30%;
+  text-align: center;
 }
 
 .title:hover {
-
+  opacity: 1;
 }
 
 .space {
@@ -145,7 +134,7 @@ p {
   padding-bottom: 1em;
 }
 
-@media only screen and (min-width: 26em) {
+@media only screen and (min-width: 25em) {
 
   .me {
     width: 60%;
@@ -153,10 +142,6 @@ p {
 
   .height {
     height: 400px;
-  }
-
-  .title-zombie {
-    left: 120px;
   }
 }
 
@@ -168,10 +153,6 @@ p {
 
   .height {
     height: 400px;
-  }
-
-  .title-zombie {
-    left: 45px;
   }
 
   .icons {
