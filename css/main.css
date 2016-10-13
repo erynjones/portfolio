@@ -72,6 +72,10 @@ p {
   width: 10%;
 }
 
+.logo {
+  margin-left: 1em;
+}
+
 .black {
   background-color: #000;
 }
