@@ -74,6 +74,10 @@ p {
   width: 10%;
 }
 
+.icons:hover {
+  opacity: .5;
+}
+
 .logo {
   margin-left: 1em;
 }
@@ -177,7 +181,7 @@ p {
   }
 
   .icons {
-    width: 5%;
+    width: 3%;
   }
 }
 
