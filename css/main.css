@@ -104,13 +104,13 @@ p {
 
 .banner-3 {
   padding: calc(2.75em + 27vw) 0 0;
-  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  background: url("../images/subway.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-4 {
   padding: calc(2.75em + 27vw) 0 0;
-  background: url("../images/banner-4.jpg") center center / cover no-repeat;
+  background: url("../images/oreo.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 

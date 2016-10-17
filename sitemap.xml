@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://erynjones.ca<loc>
+    <priority>1.0<priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2016-10-17</lastmood>
+  </url>
+
+  <url>
+    <loc>https://erynjones.ca/index.html</loc>
+    <loc>https://erynjones.ca/zombieproof.html</loc>
+    <loc>https://erynjones.ca/winnie-the-pooh.html</loc>
+    <loc>https://erynjones.ca/oreo.html</loc>
+    <loc>https://erynjones.ca/jones-typeface.html</loc>
+    <loc>https://erynjones.ca/on-the-run.html</loc>
+    <loc>https://erynjones.ca/unknown.html</loc>
+    <loc>https://erynjones.ca/photography.html</loc>
+  </url>
+
+</urlset>
