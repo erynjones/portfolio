@@ -91,7 +91,7 @@ p {
 }
 
 .banner {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
   padding-bottom: .75em;
 }
