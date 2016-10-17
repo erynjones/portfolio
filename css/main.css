@@ -58,6 +58,7 @@ p {
   z-index: 100;
   top: 30%;
   text-align: center;
+  text-decoration: none;
 }
 
 .title:hover {
