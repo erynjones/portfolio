@@ -44,26 +44,36 @@ p {
 }
 
 .rel {
-  position: relative;
+  xwidth: 350px;
+  xheight: 350px;
   overflow: hidden;
+  position: relative;
 }
 
 .title {
   position: absolute;
-  opacity: 0;
-  width: 100%;
-  left: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 100;
-  top: 30%;
+  z-index: 1;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: all 0.2s ease;
   text-align: center;
-  text-decoration: none;
-  color: #000;
+  background: rgba(0,0,0,0.4);
 }
 
-.title:hover {
-  opacity: 1;
+.rel:hover .title {
+  transform: translateY(0);
+}
+
+.rel .img {
+  width: inherit;
+  height: inherit;
+}
+
+.rel .img img {
+  max-width: 100%;
 }
 
 .space {
