@@ -39,10 +39,6 @@ p {
   width: 100%;
 }
 
-.opc {
-  opacity: .5;
-}
-
 .rel {
   overflow: hidden;
   position: relative;
@@ -52,19 +48,24 @@ p {
   color: #000;
   position: absolute;
   z-index: 1;
-  top:0;
-  left:0;
-  right:0;
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
-  transform: translateY(120%);
+  transform: translateY(105%);
   transition: all 0.2s ease;
   text-align: center;
   background: rgba(0,0,0,0.4);
-  margin-bottom: 0.28em;
+  margin-bottom: 0.15em;
 }
 
 .rel:hover .title {
   transform: translateY(0);
+}
+
+.rel .img {
+  width: inherit;
+  height: inherit;
 }
 
 .rel .img img {
@@ -72,7 +73,7 @@ p {
 }
 
 .space {
-  margin-bottom: -0.5em;
+  margin-bottom: -0.28em;
 }
 
 .icons {
