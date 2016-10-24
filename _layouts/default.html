@@ -2,7 +2,8 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Eryn Jones</title>
+  <title>Eryn Jones • Portfolio</title>
+  <meta name="description" content="Hi! I am Eryn Jones a designer, illustrator, and photography living in Ottawa.">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
@@ -14,7 +15,7 @@
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
-<header id="top" class="teal-background">
+<header itemref="data-author" itemscope itemtype="https://schema.org/WebSite" id="top" class="teal-background">
     <a itemprop="url" href="{{site.baseurl}}/index"><img class="pad-t-1-4 push-1-4 icons logo" src="{{site.baseurl}}/images/eryn-jones.svg" alt="Eryn Jones"></a>
 </header>
 
@@ -22,12 +23,12 @@
   {{content}}
 </main>
 
-<footer class="teal-background island text-center">
-  <a itemprop="email" href="mailto:eryn.jones16@hotmail.com"><img class="icons" src="{{site.baseurl}}/images/email.svg" alt="icon of mail"></a>
-  <a itemprop="url" href="https://github.com/erynjones"><img class="icons" src="{{site.baseurl}}/images/github.svg" alt="icon of github"></a>
-  <a itemprop="url" href="https://www.behance.net/ErynJ"><img class="icons" src="{{site.baseurl}}/images/behance.svg" alt="icon of behance"></a>
-  <p>©2016 Eryn Jones. All Rights Reserved Privacy Policy • Terms of Use</p>
-  <a href="#top"><img class="push-1-2 icons" src="{{site.baseurl}}/images/eryn-jones.svg" alt="Eryn Jones"></a>
+<footer  id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="teal-background island text-center">
+  <a itemprop="email" href="mailto:eryn.jones16@hotmail.com"><img class="icons" src="{{site.baseurl}}/images/email.svg" alt="mail"></a>
+  <a itemprop="url" href="https://github.com/erynjones"><img class="icons" src="{{site.baseurl}}/images/github.svg" alt="github"></a>
+  <a itemprop="url" href="https://www.behance.net/ErynJ"><img class="icons" src="{{site.baseurl}}/images/behance.svg" alt="behance"></a>
+  <p>©2016  <span itemprop="name">Eryn Jones.</span> All Rights Reserved Privacy Policy • Terms of Use</p>
+  <a itemprop="url" href="#top"><img class="push-1-2 icons" src="{{site.baseurl}}/images/eryn-jones.svg" alt="Eryn Jones"></a>
 </footer>
 
 </body>
