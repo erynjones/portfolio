@@ -44,32 +44,27 @@ p {
 }
 
 .rel {
-  xwidth: 350px;
-  xheight: 350px;
   overflow: hidden;
   position: relative;
 }
 
 .title {
+  color: #000;
   position: absolute;
   z-index: 1;
   top:0;
   left:0;
   right:0;
   bottom: 0;
-  transform: translateY(100%);
+  transform: translateY(120%);
   transition: all 0.2s ease;
   text-align: center;
   background: rgba(0,0,0,0.4);
+  margin-bottom: 0.28em;
 }
 
 .rel:hover .title {
   transform: translateY(0);
-}
-
-.rel .img {
-  width: inherit;
-  height: inherit;
 }
 
 .rel .img img {
