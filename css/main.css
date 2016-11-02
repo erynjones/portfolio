@@ -103,49 +103,49 @@ p {
 }
 
 .banner-1 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.3em + 23vw) 0 0;
   background: url("../images/banner-1.svg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-2 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-3 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("../images/subway.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-4 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("../images/oreo.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-5 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-6 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-7 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
 .banner-8 {
-  padding: calc(2.75em + 27vw) 0 0;
+  padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
   padding-bottom: 1em;
 }
