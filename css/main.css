@@ -96,6 +96,10 @@ p {
   height: 250px;
 }
 
+.height-2 {
+  height: 150px;
+}
+
 .banner {
   padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
@@ -159,6 +163,10 @@ p {
   .height {
     height: 400px;
   }
+
+  .height-2 {
+    height: 250px;
+  }
 }
 
 @media only screen and (min-width: 40em) {
@@ -186,6 +194,10 @@ p {
     height: 550px;
   }
 
+  .height-2 {
+    height: 350px;
+  }
+
   .icons {
     width: 4%;
   }
@@ -199,5 +211,9 @@ p {
 
   .height {
     height: 1000px;
+  }
+
+  .height-2 {
+    height: 600px;
   }
 }
