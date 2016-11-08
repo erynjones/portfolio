@@ -35,6 +35,10 @@ p {
   color: #6dcad0;
 }
 
+.black {
+  background-color: #000;
+}
+
 .img {
   width: 100%;
 }
@@ -154,6 +158,44 @@ p {
   padding-bottom: 1em;
 }
 
+.sun {
+  position: absolute;
+  top: -65px;
+}
+
+.sun-2 {
+  position: absolute;
+  top: 400px;
+}
+
+.sun-3 {
+  position: absolute;
+  top: 575px;
+}
+
+.rell {
+  position: relative;
+}
+
+.illustration {
+  background: url("../images/background-texture.svg") center center / cover no-repeat;
+  padding-bottom: 8em;
+  position: absolute;
+  top: 115px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 22em) {
+
+  .illustration {
+    top: 140px;
+  }
+
+  .sun-3 {
+    top: 600px;
+  }
+}
+
 @media only screen and (min-width: 25em) {
 
   .me {
@@ -166,6 +208,41 @@ p {
 
   .height-2 {
     height: 250px;
+  }
+
+  .sun {
+    top: -90px;
+  }
+
+  .illustration {
+    top: 140px;
+  }
+
+  .sun-2 {
+    top: 380px;
+  }
+
+  .sun-3 {
+    top: 610px;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+
+  .sun {
+    top: -160px;
+  }
+
+  .illustration {
+    top: 260px;
+  }
+
+  .sun-2 {
+    top: 600px;
+  }
+
+  .sun-3 {
+    top: 1010px;
   }
 }
 
@@ -201,6 +278,22 @@ p {
   .icons {
     width: 4%;
   }
+
+  .sun {
+    top: -220px;
+  }
+
+  .sun-2 {
+    top: 805px;
+  }
+
+  .sun-3 {
+    top: 1350px;
+  }
+
+  .illustration {
+    top: 350px;
+  }
 }
 
 @media only screen and (min-width: 80em) {
@@ -215,5 +308,60 @@ p {
 
   .height-2 {
     height: 600px;
+  }
+
+  .sun {
+    top: -340px;
+  }
+
+  .sun-2 {
+    top: 930px;
+  }
+
+  .sun-3 {
+    top: 1720px;
+  }
+
+  .illustration {
+    top: 435px;
+  }
+}
+
+
+@media only screen and (min-width: 90em) {
+
+  .sun {
+    top: -350px;
+  }
+
+  .sun-2 {
+    top: 1021px;
+  }
+
+  .sun-3 {
+    top: 1900px;
+  }
+
+  .illustration {
+    top: 440px;
+  }
+}
+
+@media only screen and (min-width: 110em) {
+
+  .sun {
+    top: -530px;
+  }
+
+  .sun-2 {
+    top: 1650px;
+  }
+
+  .sun-3 {
+    top: 3000px;
+  }
+
+  .illustration {
+    top: 860px;
   }
 }
