@@ -104,6 +104,14 @@ p {
   height: 150px;
 }
 
+.drawings {
+  height: 250px;
+}
+
+.letters {
+  height: 250px;
+}
+
 .banner {
   padding: calc(2.5em + 25vw) 0 0;
   background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
@@ -244,6 +252,14 @@ p {
   .sun-3 {
     top: 1010px;
   }
+
+  .drawings {
+    height: 400px;
+  }
+
+  .letters {
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 40em) {
@@ -258,6 +274,14 @@ p {
 
   .icons {
     width: 8%;
+  }
+
+  .drawings {
+    height: 500px;
+  }
+
+  .letters {
+    height: 450px;
   }
 }
 
@@ -294,6 +318,14 @@ p {
   .illustration {
     top: 350px;
   }
+
+  .drawings {
+    height: 700px;
+  }
+
+  .letters {
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 80em) {
@@ -324,6 +356,14 @@ p {
 
   .illustration {
     top: 435px;
+  }
+
+  .drawings {
+    height: 900px;
+  }
+
+  .letters {
+    height: 600px;
   }
 }
 
