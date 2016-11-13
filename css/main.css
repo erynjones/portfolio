@@ -101,7 +101,7 @@ p {
 }
 
 .height-2 {
-  height: 150px;
+  height: 175px;
 }
 
 .drawings {
@@ -260,6 +260,10 @@ p {
   .letters {
     height: 300px;
   }
+
+  .height-2 {
+    height: 350px;
+  }
 }
 
 @media only screen and (min-width: 40em) {
@@ -270,6 +274,10 @@ p {
 
   .height {
     height: 400px;
+  }
+
+  .height-2 {
+    height: 425px;
   }
 
   .icons {
@@ -296,7 +304,7 @@ p {
   }
 
   .height-2 {
-    height: 350px;
+    height: 500px;
   }
 
   .icons {
@@ -339,7 +347,7 @@ p {
   }
 
   .height-2 {
-    height: 600px;
+    height: 800px;
   }
 
   .sun {
