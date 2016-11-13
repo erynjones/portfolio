@@ -104,6 +104,10 @@ p {
   height: 175px;
 }
 
+.first {
+  height: 300px;
+}
+
 .drawings {
   height: 250px;
 }
@@ -150,7 +154,7 @@ p {
 
 .banner-6 {
   padding: calc(2.5em + 25vw) 0 0;
-  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  background: url("../images/on-the-run-banner.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
@@ -263,6 +267,10 @@ p {
 
   .height-2 {
     height: 350px;
+  }
+
+  .first {
+    height: 500px;
   }
 }
 
