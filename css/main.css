@@ -131,7 +131,7 @@ p {
   height: 250px;
 }
 
-.icons {
+.features {
   height: 200px;
 }
 
@@ -331,7 +331,7 @@ p {
     height: 350px;
   }
 
-  .icons {
+  .features {
     height: 230px;
   }
 
@@ -371,7 +371,7 @@ p {
     height: 600px;
   }
 
-  .icons {
+  .features {
     width: 8%;
   }
 
@@ -411,7 +411,7 @@ p {
     height: 300px;
   }
 
-  .icons {
+  .features {
     height: 250px;
   }
 
@@ -534,6 +534,10 @@ p {
 
 @media only screen and (min-width: 90em) {
 
+  .me {
+    width: 50%;
+  }
+
   .sun {
     top: -350px;
   }
@@ -558,7 +562,7 @@ p {
     height: 500px;
   }
 
-  .icons {
+  .features {
     height: 400px;
   }
 
