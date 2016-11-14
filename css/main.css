@@ -23,6 +23,10 @@ p {
   font-family: 'Droid Serif', serif;
 }
 
+.white {
+  color: #fff;
+}
+
 .grey {
   color: #b3b7b7;
 }
@@ -49,7 +53,6 @@ p {
 }
 
 .title {
-  color: #000;
   position: absolute;
   z-index: 1;
   top: 0;
@@ -173,8 +176,8 @@ p {
 }
 
 .banner-8 {
-  padding: calc(2.5em + 25vw) 0 0;
-  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  padding: calc(3em + 30vw) 0 0;
+  background: url("../images/photography-banner.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
