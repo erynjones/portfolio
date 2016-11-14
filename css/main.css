@@ -131,8 +131,14 @@ p {
   height: 250px;
 }
 
+.letters-2 {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .features {
-  height: 200px;
+  height: 100%;
 }
 
 .banner {
@@ -331,10 +337,6 @@ p {
     height: 350px;
   }
 
-  .features {
-    height: 230px;
-  }
-
   .first {
     height: 500px;
   }
@@ -371,7 +373,7 @@ p {
     height: 600px;
   }
 
-  .features {
+  .icons {
     width: 8%;
   }
 
@@ -409,10 +411,6 @@ p {
 
   .height-4 {
     height: 300px;
-  }
-
-  .features {
-    height: 250px;
   }
 
   .icons {
@@ -504,7 +502,7 @@ p {
     height: 900px;
   }
 
-  .letters {
+   {
     height: 600px;
   }
 
@@ -534,10 +532,6 @@ p {
 
 @media only screen and (min-width: 90em) {
 
-  .me {
-    width: 50%;
-  }
-
   .sun {
     top: -350px;
   }
@@ -562,10 +556,6 @@ p {
     height: 500px;
   }
 
-  .features {
-    height: 400px;
-  }
-
   .size {
     height: 225px;
   }
@@ -585,6 +575,10 @@ p {
 }
 
 @media only screen and (min-width: 110em) {
+
+  .me {
+    width: 50%;
+  }
 
   .sun {
     top: -600px;
