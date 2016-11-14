@@ -107,7 +107,7 @@ p {
   height: 250px;
 }
 
-.height-2 {
+.height-2, .height-4 {
   height: 175px;
 }
 
@@ -129,6 +129,10 @@ p {
 
 .letters {
   height: 250px;
+}
+
+.icons {
+  height: 200px;
 }
 
 .banner {
@@ -268,7 +272,7 @@ p {
     height: 400px;
   }
 
-  .height-2 {
+  .height-2, .height-4 {
     height: 250px;
   }
 
@@ -323,8 +327,12 @@ p {
     height: 300px;
   }
 
-  .height-2 {
+  .height-2, .height-4 {
     height: 350px;
+  }
+
+  .icons {
+    height: 230px;
   }
 
   .first {
@@ -355,7 +363,7 @@ p {
     height: 400px;
   }
 
-  .height-2 {
+  .height-2, .height-4 {
     height: 425px;
   }
 
@@ -397,6 +405,14 @@ p {
 
   .height-3 {
     height: 600px;
+  }
+
+  .height-4 {
+    height: 300px;
+  }
+
+  .icons {
+    height: 250px;
   }
 
   .icons {
@@ -462,6 +478,10 @@ p {
 
   .height-3 {
     height: 1200px;
+  }
+
+  .height-4 {
+    height: 400px;
   }
 
   .sun {
@@ -532,6 +552,14 @@ p {
 
   .height-3 {
     height: 1700px;
+  }
+
+  .height-4 {
+    height: 500px;
+  }
+
+  .icons {
+    height: 400px;
   }
 
   .size {
