@@ -192,12 +192,28 @@ p {
 
 .sun-2 {
   position: absolute;
-  top: 400px;
+  top: 460px;
 }
 
 .sun-3 {
   position: absolute;
-  top: 575px;
+  top: 630px;
+}
+
+.box {
+  position: relative;
+}
+
+.start {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.col {
+  top: 100px;
 }
 
 .rell {
@@ -219,7 +235,12 @@ p {
   }
 
   .sun-3 {
-    top: 600px;
+    top: 640px;
+  }
+
+  .sun-2 {
+    position: absolute;
+    top: 430px;
   }
 }
 
@@ -250,11 +271,11 @@ p {
   }
 
   .sun-2 {
-    top: 380px;
+    top: 410px;
   }
 
   .sun-3 {
-    top: 610px;
+    top: 640px;
   }
 }
 
@@ -294,6 +315,11 @@ p {
 
   .imgg {
     height: 500px;
+  }
+
+  .left {
+    margin-left: 7em;
+    margin-right: 2em;
   }
 }
 
@@ -360,11 +386,11 @@ p {
   }
 
   .sun-2 {
-    top: 805px;
+    top: 730px;
   }
 
   .sun-3 {
-    top: 1350px;
+    top: 1300px;
   }
 
   .illustration {
@@ -386,6 +412,11 @@ p {
 
   .size {
     height: 125px;
+  }
+
+  .left {
+    margin-left: 10em;
+    margin-right: 4em;
   }
 }
 
@@ -412,11 +443,11 @@ p {
   }
 
   .sun-2 {
-    top: 930px;
+    top: 740px;
   }
 
   .sun-3 {
-    top: 1720px;
+    top: 1540px;
   }
 
   .illustration {
@@ -443,6 +474,11 @@ p {
   .imgg {
     height: 600px;
   }
+
+  .left {
+    margin-left: 16em;
+    margin-right: 4em;
+  }
 }
 
 
@@ -453,11 +489,11 @@ p {
   }
 
   .sun-2 {
-    top: 1021px;
+    top: 800px;
   }
 
   .sun-3 {
-    top: 1900px;
+    top: 1500px;
   }
 
   .illustration {
@@ -485,18 +521,24 @@ p {
 @media only screen and (min-width: 110em) {
 
   .sun {
-    top: -530px;
+    top: -600px;
   }
 
   .sun-2 {
-    top: 1650px;
+    top: 1175px;
   }
 
   .sun-3 {
-    top: 3000px;
+    top: 2600px;
   }
 
   .illustration {
-    top: 860px;
+    top: 835px;
+    padding-bottom: 14.5em;
+  }
+
+  .left {
+    padding-left: 16em;
+    padding-right: 8em;
   }
 }
