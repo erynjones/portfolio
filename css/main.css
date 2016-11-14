@@ -218,6 +218,16 @@ p {
 
 .rell {
   position: relative;
+  height: 100%;
+}
+
+.footer-2 {
+  position: relative;
+  bottom: -825px;
+}
+
+.head-2 {
+  position: relative;
 }
 
 .illustration {
@@ -241,6 +251,10 @@ p {
   .sun-2 {
     position: absolute;
     top: 430px;
+  }
+
+  .footer-2 {
+    bottom: -850px;
   }
 }
 
@@ -276,6 +290,10 @@ p {
 
   .sun-3 {
     top: 640px;
+  }
+
+  .footer-2 {
+    bottom: -900px;
   }
 }
 
@@ -320,6 +338,10 @@ p {
   .left {
     margin-left: 7em;
     margin-right: 2em;
+  }
+
+  .footer-2 {
+    bottom: -1450px;
   }
 }
 
@@ -418,6 +440,10 @@ p {
     margin-left: 10em;
     margin-right: 4em;
   }
+
+  .footer-2 {
+    bottom: -1850px;
+  }
 }
 
 @media only screen and (min-width: 80em) {
@@ -479,6 +505,10 @@ p {
     margin-left: 16em;
     margin-right: 4em;
   }
+
+  .footer-2 {
+    bottom: -2000px;
+  }
 }
 
 
@@ -516,6 +546,10 @@ p {
   .imgg {
     height: 900px;
   }
+
+  .footer-2 {
+    bottom: -2300px;
+  }
 }
 
 @media only screen and (min-width: 110em) {
@@ -540,5 +574,9 @@ p {
   .left {
     padding-left: 16em;
     padding-right: 8em;
+  }
+
+  .footer-2 {
+    bottom: -4000px;
   }
 }
