@@ -103,34 +103,6 @@ p {
   background-color: #000;
 }
 
-.height {
-  height: 250px;
-}
-
-.height-2, .height-4 {
-  height: 175px;
-}
-
-.height-3 {
-  height: 300px;
-}
-
-.size {
-  height: 100px;
-}
-
-.first {
-  height: 300px;
-}
-
-.drawings {
-  height: 250px;
-}
-
-.letters {
-  height: 250px;
-}
-
 .letters-2 {
   height: 100%;
   margin-left: auto;
@@ -274,18 +246,6 @@ p {
     width: 60%;
   }
 
-  .height {
-    height: 400px;
-  }
-
-  .height-2, .height-4 {
-    height: 250px;
-  }
-
-  .height-3 {
-    height: 400px;
-  }
-
   .sun {
     top: -90px;
   }
@@ -325,26 +285,6 @@ p {
     top: 1010px;
   }
 
-  .drawings {
-    height: 400px;
-  }
-
-  .letters {
-    height: 300px;
-  }
-
-  .height-2, .height-4 {
-    height: 350px;
-  }
-
-  .first {
-    height: 500px;
-  }
-
-  .imgg {
-    height: 500px;
-  }
-
   .left {
     margin-left: 7em;
     margin-right: 2em;
@@ -361,28 +301,8 @@ p {
     width: 60%;
   }
 
-  .height {
-    height: 400px;
-  }
-
-  .height-2, .height-4 {
-    height: 425px;
-  }
-
-  .height-3 {
-    height: 600px;
-  }
-
   .icons {
     width: 8%;
-  }
-
-  .drawings {
-    height: 500px;
-  }
-
-  .letters {
-    height: 450px;
   }
 
   .padd {
@@ -395,22 +315,6 @@ p {
 
   .me {
     width: 100%;
-  }
-
-  .height {
-    height: 550px;
-  }
-
-  .height-2 {
-    height: 500px;
-  }
-
-  .height-3 {
-    height: 600px;
-  }
-
-  .height-4 {
-    height: 300px;
   }
 
   .icons {
@@ -433,21 +337,9 @@ p {
     top: 350px;
   }
 
-  .drawings {
-    height: 700px;
-  }
-
-  .letters {
-    height: 500px;
-  }
-
   .padd {
     padding-left: 5em;
     padding-right: 5em;
-  }
-
-  .size {
-    height: 125px;
   }
 
   .left {
@@ -466,22 +358,6 @@ p {
     width: 80%;
   }
 
-  .height {
-    height: 1000px;
-  }
-
-  .height-2 {
-    height: 800px;
-  }
-
-  .height-3 {
-    height: 1200px;
-  }
-
-  .height-4 {
-    height: 400px;
-  }
-
   .sun {
     top: -340px;
   }
@@ -498,25 +374,9 @@ p {
     top: 435px;
   }
 
-  .drawings {
-    height: 900px;
-  }
-
-   {
-    height: 600px;
-  }
-
   .padd {
     padding-left: 7em;
     padding-right: 7em;
-  }
-
-  .size {
-    height: 150px;
-  }
-
-  .imgg {
-    height: 600px;
   }
 
   .left {
@@ -548,29 +408,9 @@ p {
     top: 440px;
   }
 
-  .height-3 {
-    height: 1700px;
-  }
-
-  .height-4 {
-    height: 500px;
-  }
-
-  .size {
-    height: 225px;
-  }
-
   .padd {
     padding-left: 12em;
     padding-right: 12em;
-  }
-
-  .imgg {
-    height: 800px;
-  }
-
-  .footer-2 {
-    bottom: -2300px;
   }
 }
 
