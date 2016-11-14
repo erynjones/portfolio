@@ -79,6 +79,10 @@ p {
   max-width: 100%;
 }
 
+.imgg {
+  height: 300px;
+}
+
 .space {
   margin-bottom: -0.28em;
 }
@@ -287,6 +291,10 @@ p {
   .first {
     height: 500px;
   }
+
+  .imgg {
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 40em) {
@@ -431,6 +439,10 @@ p {
   .size {
     height: 150px;
   }
+
+  .imgg {
+    height: 600px;
+  }
 }
 
 
@@ -463,6 +475,10 @@ p {
   .padd {
     padding-left: 12em;
     padding-right: 12em;
+  }
+
+  .imgg {
+    height: 900px;
   }
 }
 
