@@ -104,6 +104,14 @@ p {
   height: 175px;
 }
 
+.height-3 {
+  height: 300px;
+}
+
+.size {
+  height: 100px;
+}
+
 .first {
   height: 300px;
 }
@@ -118,7 +126,7 @@ p {
 
 .banner {
   padding: calc(2.5em + 25vw) 0 0;
-  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
+  background: url("../images/logo-sketches.jpg") center center / cover no-repeat;
   padding-bottom: .75em;
 }
 
@@ -222,6 +230,10 @@ p {
     height: 250px;
   }
 
+  .height-3 {
+    height: 400px;
+  }
+
   .sun {
     top: -90px;
   }
@@ -288,6 +300,10 @@ p {
     height: 425px;
   }
 
+  .height-3 {
+    height: 600px;
+  }
+
   .icons {
     width: 8%;
   }
@@ -298,6 +314,11 @@ p {
 
   .letters {
     height: 450px;
+  }
+
+  .padd {
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 
@@ -313,6 +334,10 @@ p {
 
   .height-2 {
     height: 500px;
+  }
+
+  .height-3 {
+    height: 800px;
   }
 
   .icons {
@@ -342,6 +367,15 @@ p {
   .letters {
     height: 500px;
   }
+
+  .padd {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .size {
+    height: 125px;
+  }
 }
 
 @media only screen and (min-width: 80em) {
@@ -356,6 +390,10 @@ p {
 
   .height-2 {
     height: 800px;
+  }
+
+  .height-3 {
+    height: 1200px;
   }
 
   .sun {
@@ -381,6 +419,15 @@ p {
   .letters {
     height: 600px;
   }
+
+  .padd {
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  .size {
+    height: 150px;
+  }
 }
 
 
@@ -400,6 +447,19 @@ p {
 
   .illustration {
     top: 440px;
+  }
+
+  .height-3 {
+    height: 1700px;
+  }
+
+  .size {
+    height: 225px;
+  }
+
+  .padd {
+    padding-left: 12em;
+    padding-right: 12em;
   }
 }
 
