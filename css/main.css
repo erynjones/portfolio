@@ -121,7 +121,7 @@ p {
 
 .banner-1 {
   padding: calc(2.3em + 23vw) 0 0;
-  background: url("../images/banner-1.svg") center center / cover no-repeat;
+  background: url("../images/zombie-banner.svg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
