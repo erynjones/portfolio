@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('oswald-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('oswald-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('oswald-light.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('droidserif-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('droidserif-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-family: Helvetica,sans-serif;
+}
+
+.fonts-loaded {
+  font-family: "Oswald", sans-serif;
+}
