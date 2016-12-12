@@ -155,12 +155,6 @@ p {
   padding-bottom: 1em;
 }
 
-.banner-7 {
-  padding: calc(2.5em + 25vw) 0 0;
-  background: url("http://placehold.it/1920x1080") center center / cover no-repeat;
-  padding-bottom: 1em;
-}
-
 .banner-8 {
   padding: calc(3em + 30vw) 0 0;
   background: url("../images/photography-banner.jpg") center center / cover no-repeat;
@@ -192,6 +186,45 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.start-2 {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.start-3 {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.start-4 {
+  position: absolute;
+  top: 110px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.butt {
+  margin: 0;
+}
+
+.but {
+  border-style: solid;
+  border-color: #fff;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
 }
 
 .col {
@@ -293,6 +326,10 @@ p {
   .footer-2 {
     bottom: -1450px;
   }
+
+  .start-4 {
+    top: 130px;
+  }
 }
 
 @media only screen and (min-width: 40em) {
@@ -350,6 +387,10 @@ p {
   .footer-2 {
     bottom: -1850px;
   }
+
+  .but {
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width: 80em) {
@@ -387,6 +428,10 @@ p {
   .footer-2 {
     bottom: -2300px;
   }
+
+  .but {
+    width: 20%;
+  }
 }
 
 
@@ -415,6 +460,14 @@ p {
 
   .footer-2 {
     bottom: -2300px;
+  }
+
+  .but {
+    width: 18%;
+  }
+
+  .start-3 {
+    top: 85px;
   }
 }
 
@@ -448,5 +501,9 @@ p {
 
   .footer-2 {
     bottom: -4000px;
+  }
+
+  .but {
+    width: 12%;
   }
 }
