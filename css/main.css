@@ -27,6 +27,10 @@ p {
   color: #fff;
 }
 
+.white-background {
+  background-color: #fff;
+}
+
 .grey {
   color: #b3b7b7;
 }
