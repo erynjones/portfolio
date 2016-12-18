@@ -21,16 +21,22 @@
   <link href="{{site.baseurl}}/fonts/droidserif-bold.woff" rel="prefetch">
   <link href="{{site.baseurl}}/images/favicon.ico" rel="shortcut icon">
 </head>
+
 <body>
-<header itemref="data-author" itemscope itemtype="https://schema.org/WebSite" id="top" class="teal-background"role="banner" role="banner">
+
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+</ul>
+
+<header itemref="data-author" itemscope itemtype="https://schema.org/WebSite" id="top" class="teal-background" role="banner">
     <a itemprop="url" href="{{site.baseurl}}/index"><img class="pad-t-1-4 push-1-4 icons logo" src="{{site.baseurl}}/images/eryn-jones.svg" alt="Eryn Jones"></a>
 </header>
 
-<main role="main">
+<main role="main" id="main">
   {{content}}
 </main>
 
-<footer  id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="teal-background island text-center">
+<footer id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="teal-background island text-center">
   <a itemprop="email" href="mailto:eryn.jones16@hotmail.com"><img class="icons" src="{{site.baseurl}}/images/email.svg" alt="mail"></a>
   <a itemprop="url" href="https://github.com/erynjones"><img class="icons" src="{{site.baseurl}}/images/github.svg" alt="github"></a>
   <a itemprop="url" href="https://www.behance.net/ErynJ"><img class="icons" src="{{site.baseurl}}/images/behance.svg" alt="behance"></a>
