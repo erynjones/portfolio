@@ -117,6 +117,10 @@ p {
   height: 100%;
 }
 
+.half {
+  height: 15%;
+}
+
 .banner {
   padding: calc(3.2em + 32vw) 0 0;
   background: url("../images/background-logo.jpg") center center / cover no-repeat;
