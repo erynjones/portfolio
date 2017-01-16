@@ -159,25 +159,16 @@ p {
   padding-bottom: 1em;
 }
 
-.banner-8 {
+.banner-7 {
   padding: calc(3em + 30vw) 0 0;
   background: url("../images/photography-banner.jpg") center center / cover no-repeat;
   padding-bottom: 1em;
 }
 
-.sun {
-  position: absolute;
-  top: -65px;
-}
-
-.sun-2 {
-  position: absolute;
-  top: 460px;
-}
-
-.sun-3 {
-  position: absolute;
-  top: 630px;
+.banner-8 {
+  padding: calc(3em + 30vw) 0 0;
+  background: url("../images/photography-banner.jpg") center center / cover no-repeat;
+  padding-bottom: 1em;
 }
 
 .box {
@@ -235,100 +226,18 @@ p {
   top: 100px;
 }
 
-.rell {
-  position: relative;
-  height: 100%;
-}
-
-.footer-2 {
-  position: relative;
-  bottom: -825px;
-}
-
-.head-2 {
-  position: relative;
-}
-
-.illustration {
-  background: url("../images/background-texture.svg") center center / cover no-repeat;
-  padding-bottom: 8em;
-  position: absolute;
-  top: 115px;
-  width: 100%;
-}
-
-@media only screen and (min-width: 22em) {
-
-  .illustration {
-    top: 140px;
-  }
-
-  .sun-3 {
-    top: 640px;
-  }
-
-  .sun-2 {
-    position: absolute;
-    top: 430px;
-  }
-
-  .footer-2 {
-    bottom: -850px;
-  }
-}
-
 @media only screen and (min-width: 25em) {
 
   .me {
     width: 60%;
   }
-
-  .sun {
-    top: -90px;
-  }
-
-  .illustration {
-    top: 140px;
-  }
-
-  .sun-2 {
-    top: 410px;
-  }
-
-  .sun-3 {
-    top: 640px;
-  }
-
-  .footer-2 {
-    bottom: -900px;
-  }
 }
 
 @media only screen and (min-width: 30em) {
 
-  .sun {
-    top: -160px;
-  }
-
-  .illustration {
-    top: 260px;
-  }
-
-  .sun-2 {
-    top: 600px;
-  }
-
-  .sun-3 {
-    top: 1010px;
-  }
-
   .left {
     margin-left: 7em;
     margin-right: 2em;
-  }
-
-  .footer-2 {
-    bottom: -1450px;
   }
 
   .start-4 {
@@ -362,22 +271,6 @@ p {
     width: 4%;
   }
 
-  .sun {
-    top: -220px;
-  }
-
-  .sun-2 {
-    top: 730px;
-  }
-
-  .sun-3 {
-    top: 1300px;
-  }
-
-  .illustration {
-    top: 350px;
-  }
-
   .padd {
     padding-left: 5em;
     padding-right: 5em;
@@ -403,22 +296,6 @@ p {
     width: 80%;
   }
 
-  .sun {
-    top: -340px;
-  }
-
-  .sun-2 {
-    top: 740px;
-  }
-
-  .sun-3 {
-    top: 1540px;
-  }
-
-  .illustration {
-    top: 435px;
-  }
-
   .padd {
     padding-left: 7em;
     padding-right: 7em;
@@ -438,24 +315,7 @@ p {
   }
 }
 
-
 @media only screen and (min-width: 90em) {
-
-  .sun {
-    top: -350px;
-  }
-
-  .sun-2 {
-    top: 800px;
-  }
-
-  .sun-3 {
-    top: 1500px;
-  }
-
-  .illustration {
-    top: 440px;
-  }
 
   .padd {
     padding-left: 12em;
@@ -481,30 +341,9 @@ p {
     width: 50%;
   }
 
-  .sun {
-    top: -600px;
-  }
-
-  .sun-2 {
-    top: 1175px;
-  }
-
-  .sun-3 {
-    top: 2600px;
-  }
-
-  .illustration {
-    top: 835px;
-    padding-bottom: 14.5em;
-  }
-
   .left {
     padding-left: 16em;
     padding-right: 8em;
-  }
-
-  .footer-2 {
-    bottom: -4000px;
   }
 
   .but {
