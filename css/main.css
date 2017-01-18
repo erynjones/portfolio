@@ -43,14 +43,6 @@ p {
   color: #6dcad0;
 }
 
-.black {
-  background-color: #000;
-}
-
-.dark {
-  background-color: #000;
-}
-
 .img {
   width: 100%;
 }
@@ -101,10 +93,6 @@ p {
 
 .logo {
   margin-left: 1em;
-}
-
-.black {
-  background-color: #000;
 }
 
 .letters-2 {
@@ -164,9 +152,9 @@ p {
 }
 
 .banner-7 {
-  padding: calc(3em + 30vw) 0 0;
-  background: url("../images/photography-banner.jpg") center center / cover no-repeat;
-  padding-bottom: 1em;
+  padding: calc(3.2em + 32vw) 0 0;
+  background: url("../images/allert-banner.svg") center center / cover no-repeat;
+  padding-bottom: .75em;
 }
 
 .banner-8 {
@@ -175,42 +163,21 @@ p {
   padding-bottom: 1em;
 }
 
+video {
+  width: 100%;
+}
+
+.vid-2 {
+  width: 100%;
+}
+
+.vid {
+  width: 100%;
+  overflow: hidden;
+}
+
 .box {
   position: relative;
-}
-
-.start {
-  position: absolute;
-  top: 10px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.start-2 {
-  position: absolute;
-  top: 20px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.start-3 {
-  position: absolute;
-  top: 70px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.start-4 {
-  position: absolute;
-  top: 110px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-decoration: none;
-  margin-bottom: 0;
 }
 
 .butt {
@@ -230,22 +197,19 @@ p {
   top: 100px;
 }
 
+.mid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media only screen and (min-width: 25em) {
 
   .me {
     width: 60%;
   }
-}
 
-@media only screen and (min-width: 30em) {
-
-  .left {
-    margin-left: 7em;
-    margin-right: 2em;
-  }
-
-  .start-4 {
-    top: 130px;
+  .size {
+    width: 40%;
   }
 }
 
@@ -253,6 +217,10 @@ p {
 
   .me {
     width: 60%;
+  }
+
+  .size {
+    width: 40%;
   }
 
   .icons {
@@ -271,6 +239,10 @@ p {
     width: 100%;
   }
 
+  .size {
+    width: 80%;
+  }
+
   .icons {
     width: 4%;
   }
@@ -278,19 +250,6 @@ p {
   .padd {
     padding-left: 5em;
     padding-right: 5em;
-  }
-
-  .left {
-    margin-left: 10em;
-    margin-right: 4em;
-  }
-
-  .footer-2 {
-    bottom: -1850px;
-  }
-
-  .but {
-    width: 25%;
   }
 }
 
@@ -300,22 +259,13 @@ p {
     width: 80%;
   }
 
+  .size {
+    width: 60%;
+  }
+
   .padd {
     padding-left: 7em;
     padding-right: 7em;
-  }
-
-  .left {
-    margin-left: 16em;
-    margin-right: 4em;
-  }
-
-  .footer-2 {
-    bottom: -2300px;
-  }
-
-  .but {
-    width: 20%;
   }
 }
 
@@ -325,18 +275,6 @@ p {
     padding-left: 12em;
     padding-right: 12em;
   }
-
-  .footer-2 {
-    bottom: -2300px;
-  }
-
-  .but {
-    width: 18%;
-  }
-
-  .start-3 {
-    top: 85px;
-  }
 }
 
 @media only screen and (min-width: 110em) {
@@ -345,12 +283,11 @@ p {
     width: 50%;
   }
 
-  .left {
-    padding-left: 16em;
-    padding-right: 8em;
+  .size {
+    width: 30%;
   }
 
-  .but {
-    width: 12%;
+  .vid-2 {
+    height: 1200px;
   }
 }
