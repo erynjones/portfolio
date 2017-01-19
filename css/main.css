@@ -202,6 +202,10 @@ video {
   margin-left: auto;
 }
 
+.size {
+  width: 60%;
+}
+
 @media only screen and (min-width: 25em) {
 
   .me {
@@ -209,7 +213,7 @@ video {
   }
 
   .size {
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -220,7 +224,7 @@ video {
   }
 
   .size {
-    width: 40%;
+    width: 80%;
   }
 
   .icons {
@@ -230,6 +234,10 @@ video {
   .padd {
     padding-left: 3em;
     padding-right: 3em;
+  }
+
+  .vid-2 {
+    height: 500px;
   }
 }
 
@@ -274,6 +282,10 @@ video {
   .padd {
     padding-left: 12em;
     padding-right: 12em;
+  }
+
+  .vid-2 {
+    height: 700px;
   }
 }
 
